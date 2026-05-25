@@ -8,3 +8,7 @@ class ContactAdmin(admin.ModelAdmin):
     list_display = 'first_name', 'last_name', 'phone',
     list_filter = 'created_date',
     search_fields = 'first_name', 'last_name',
+
+@admin.register(models.Category)
+class CategoryAdmin(admin.ModelAdmin):
+    list_display = 'name',
