@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path, reverse
 from contact import views
 
 app_name = 'contact'
@@ -11,5 +11,6 @@ urlpatterns = [
 
     path('contact/<int:contact_id>/', views.contact, name='contact'),
     path('contact/create/', views.create, name='create'),
+    path('contact/<int:contact_id>/update/', views.update, name='update'),
 ]
 

@@ -8,7 +8,7 @@
     <nav class="menu">
       <ul class="menu-list">
         <li class="menu-item">
-          <a href="/contact/create/" class="menu-link">
+          <a href={% url "contact:create" %} class="menu-link">
             Create User
           </a>
         </li>
@@ -31,7 +31,7 @@
           placeholder="Search"
           id="search"
           name="q"
-          value="{{ search_value }}""
+          value="{{ search_value }}"
         >
       </form>
     </div>
