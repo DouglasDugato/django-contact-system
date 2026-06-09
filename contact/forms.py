@@ -1,6 +1,7 @@
 from django import forms
 from . import models
 from django.core.exceptions import ValidationError
+from django.contrib.auth.forms import UserCreationForm
 
 class ContactForm(forms.ModelForm):
     first_name = forms.CharField(
@@ -52,3 +53,6 @@ class ContactForm(forms.ModelForm):
         if last_name and any(char.isdigit() for char in last_name):
             raise ValidationError('Não pode possuir números', code='invalid')
         return last_name
+    
+class RegisterForm(UserCreationForm):
+    ...    
