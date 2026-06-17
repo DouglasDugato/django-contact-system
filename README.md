@@ -1,39 +1,35 @@
+##Django Contact System
 
-# Agenda Django
+A contact management application built with Django as part of my backend development studies. The system allows authenticated users to securely manage their own contacts through a complete CRUD interface.
 
+##Features
+Create, update, and delete contacts
+Contact search functionality
+Pagination
+Image upload support
+User registration and authentication
+User profile management
+Contact ownership and access control
+Form validation and error handling
 
-Projeto de agenda de contatos desenvolvido com Django durante meus estudos em desenvolvimento backend.
+##Technologies Used
+Python
+Django
+SQLite
+HTML
+CSS
+Git
 
-## Funcionalidades
+##What I Learned
 
-* Cadastro de contatos
-* Atualização de contatos
-* Exclusão de contatos
-* Sistema de busca
-* Paginação
-* Validação de formulários
-* Upload de imagens
-* Sistema de autenticação
-* Controle de usuários
+During this project, I practiced important Django concepts such as:
 
-## Tecnologias utilizadas
-
-* Python
-* Django
-* SQLite
-* HTML
-* CSS
-
-## Aprendizados
-
-Neste projeto pratiquei conceitos importantes do Django, como:
-
-* ModelForms
-* Validação com clean e ValidationError
-* CRUD completo
-* Relacionamento entre models
-* Paginação
-* Autenticação de usuários
-* Organização de templates
-* Git e commits semânticos
-
+ModelForms
+Form validation with clean() and ValidationError
+Full CRUD implementation
+Authentication and authorization
+Relationships between models
+Pagination
+File uploads
+Template organization
+Git workflow and semantic commits
